@@ -78,6 +78,7 @@ body {
 
 .location {
 	color: var(--primary);
+	font-weight: var(--fw-bold);
 }
 
 .bio {
