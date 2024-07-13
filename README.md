@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/kalihari90/frontend-mentor-3/img/screenshot.png)
+![Screenshot](https://github.com/kalihari90/frontend-mentor-3/img/screenshot.png)
 
 ### Links
 
@@ -39,8 +39,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 

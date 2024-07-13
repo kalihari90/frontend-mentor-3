@@ -80,6 +80,10 @@ body {
 	color: var(--primary);
 }
 
+.bio {
+	font-weight: var(--fw-light);
+}
+
 .links {
 	display: flex;
 	flex-direction: column;
