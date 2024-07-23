@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/kalihari90/frontend-mentor-3/img/screenshot.png)
+![Screenshot](./img/screenshot.png)
 
 ### Links
 
