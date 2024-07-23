@@ -34,6 +34,11 @@ body {
 	font-weight: var(--fw-normal);
 	line-height: var(--lh-normal);
 	background-color: var(--black);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 2.4rem;
 }
 
 .container {
@@ -46,14 +51,15 @@ body {
 	flex-direction: column;
 	gap: 2.4rem;
 	padding: 4rem;
-	margin-top: 17.4rem;
+	/* margin-top: 17.4rem; */
+	margin-top: 2.4rem;
 	border-radius: 1.2rem;
 	text-align: center;
 	color: var(--white);
 	background-color: var(--dark);
 }
 
-.heading {
+h1 {
 	font-size: var(--fs-heading);
 	font-weight: var(--fw-normal);
 }
@@ -78,7 +84,6 @@ body {
 
 .location {
 	color: var(--primary);
-	font-weight: var(--fw-bold);
 }
 
 .bio {
@@ -93,9 +98,11 @@ body {
 
 .link {
 	padding: 1.2rem;
-	line-height: var(--lh-normal);
-	background-color: var(--grey);
 	border-radius: 0.8rem;
+	line-height: var(--lh-normal);
+	color: var(--white);
+	background-color: var(--grey);
+	text-decoration: none;
 }
 
 .link:hover,
@@ -108,7 +115,7 @@ body {
 .attribution {
 	font-size: var(--fs-normal);
 	color: var(--white);
-	margin-top: 17.5rem;
+	/* margin-top: 17.5rem; */
 	margin-bottom: 2.4rem;
 	text-align: center;
 	display: flex;
