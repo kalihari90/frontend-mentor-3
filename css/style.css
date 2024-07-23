@@ -34,11 +34,6 @@ body {
 	font-weight: var(--fw-normal);
 	line-height: var(--lh-normal);
 	background-color: var(--black);
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	gap: 2.4rem;
 }
 
 .container {
@@ -51,8 +46,8 @@ body {
 	flex-direction: column;
 	gap: 2.4rem;
 	padding: 4rem;
-	/* margin-top: 17.4rem; */
-	margin-top: 2.4rem;
+	/* MARGIN-TOP BECAUSE I DON'T WANT TO PUT DISPLAY FLEX ON THE BODY  */
+	margin-top: 17.4rem;
 	border-radius: 1.2rem;
 	text-align: center;
 	color: var(--white);
@@ -115,7 +110,8 @@ h1 {
 .attribution {
 	font-size: var(--fs-normal);
 	color: var(--white);
-	/* margin-top: 17.5rem; */
+	/* MARGIN-TOP BECAUSE I DON'T WANT TO PUT DISPLAY FLEX ON THE BODY  */
+	margin-top: 17.5rem;
 	margin-bottom: 2.4rem;
 	text-align: center;
 	display: flex;
